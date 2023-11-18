@@ -23,6 +23,17 @@ footer {
     gap: 10px;
 }
 
+footer .footerCtts .spanCtts a {
+    color: var(--cor-fonts);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+footer .footerCtts .spanCtts a:hover {
+    text-decoration: none;
+}
+
 /*
 <footer>
         <img src="img/LOGO N2Y.png" alt="" width="115px" height="65px">

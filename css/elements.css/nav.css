@@ -11,19 +11,19 @@
     align-items: center;
 }
 
-ul {
+.navbar ul {
     display: flex;
     gap: 4vw;
 }
 
-a {
+.navbar ul a {
     color: var(--cor-fonts);
     font-family: var(--font-principal);
     font-size: 1rem;
     font-weight: 700;
 }
 
-a:hover {
+.navbar ul a:hover {
     text-decoration: none;
 }
 
