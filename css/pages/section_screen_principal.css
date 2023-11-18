@@ -1,0 +1,15 @@
+.sectionTelaPrincipal {
+    height: 100vh;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgPrincipal {
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+

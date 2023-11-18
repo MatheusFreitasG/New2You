@@ -1,0 +1,8 @@
+@import "base/reset.css";
+@import "base/variable.css";
+@import "elements.css/body.css";
+@import "elements.css/nav.css";
+@import "pages/section_screen_principal.css";
+@import "elements.css/button.css";
+@import "elements.css/footer.css";
+@import "pages/section_screen_autorizados.css"
