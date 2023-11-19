@@ -1,3 +1,8 @@
+body {
+    background-color: var(--cor-fundo);
+    overflow-x: hidden;
+}
+
 .sectionTelaPrincipal {
     height: 100vh;
     width: auto;
@@ -11,5 +16,12 @@
 .imgPrincipal {
     padding-bottom: 50px;
     padding-left: 20px;
+}
+
+@media (max-width: 600px){
+    .sectionTelaPrincipal .imgPrincipal {
+        width: 300px;
+        height: auto;
+    }
 }
 
