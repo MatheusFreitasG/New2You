@@ -8,3 +8,5 @@
 @import "pages/section_screen_autorizados.css";
 @import "pages/section_screen_trocaTrend.css";
 @import "pages/section_screen_portfolio.css";
+@import "elements.css/cards.css";
+@import "elements.css/modal.css"

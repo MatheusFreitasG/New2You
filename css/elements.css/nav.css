@@ -6,9 +6,11 @@
 
     position: fixed;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 16rem;
     align-items: center;
+
+    z-index: 2;
 }
 
 .navbar ul {

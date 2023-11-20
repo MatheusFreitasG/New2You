@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/base.css">
 </head>
 <body id="bdPortfolio">
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <a href="index.html"><img src="img/LOGO N2Y.png" alt="LOGO" width="115px" height="65px"></a>
         <ul>
             <li><a href="autorizados.html">#AUTORIZADOS</a></li>
@@ -18,11 +18,105 @@
         </ul>
     </nav>
 
-    <section class="sectionPortfolio">
-        <img src="" alt="!">
-        <img src="" alt="!">
-        <img src="" alt="!">
-        
+    <div class="divPhanton"></div>
+
+    <section class="sectionTitlePortfolio">
+        <img src="img/TROCA TREND COM POST IT.png" alt="Troca Trend Post-it">
+        <h1 class="date">19/11</h1>
+        <p>Portifólio Sesi Osasco</p>
     </section>
+
+
+    <section class="sectionPortfolio">
+        <div class="divPhanton"></div>
+        <div class="backgroundForms">
+            <div class="twoForms">
+                <img id="img1" src="img/FORMA3.png" alt="!">
+                <img src="img/FORMA1.png" alt="!">
+            </div>
+            <img id="img3" src="img/FORMA1.png" alt="!">
+        </div>
+    </section>
+
+
+
+    <main class="cardsMain" id="cardsMain">
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Colete de Moletom</h1>
+                <button onclick="exibirTelaSuspensa('Roupa 1', 'Esta é a descrição da Roupa 1', 'url_imagem_1.jpg')" id="button1" class="btnCard">Conferir</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Camiseta Preta</h1>
+                <button class="btnCard" onclick="exibirTelaSuspensa('Roupa 2', 'Esta é a descrição da Roupa 2', 'https://static.ndmais.com.br/2021/05/pimentinha-dog-influencer-10-571x800.jpeg')" id="button1" class="btnCard">Conferir</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Camiseta Preta</h1>
+                <button class="btnCard">Conferir</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Cropped Verde</h1>
+                <button class="btnCard">Conferir</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Cropped Branco</h1>
+                <button class="btnCard">Conferir</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Camiseta Preta</h1>
+                <button class="btnCard">Conferir</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Cropped Preto</h1>
+                <button class="btnCard">Conferir</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="imgCard"></div>
+                <h1 class="titleCard">Camiseta Amarela</h1>
+                <button class="btnCard">Conferir</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="overlay" class="overlay">
+        <div id="modal" class="modal">
+            <img id="imgModal" src="" alt="imagem roupa" width="400px" height="400px">
+            <div class="txtRoupa">
+                <h1 id="titleRoupa"></h1>
+                <p id="dscRoupa"></p>
+            </div>
+            <button class="btnFecharModal" onclick="fecharTelaSuspensa()">Sair</button>
+        </div>
+    </div>
+
+    <script src="js/card.js"></script>
 </body>
 </html>
