@@ -1,5 +1,5 @@
 
-function exibirTelaSuspensa(title, description, imageUrl) {
+function exibirTelaSuspensa(title, busto, cintura, comprimento, imageUrl) {
     let overlay = document.getElementById('overlay');
     let modal = document.getElementById('modal');
     let cards = document.getElementById('cardsMain');
@@ -7,11 +7,15 @@ function exibirTelaSuspensa(title, description, imageUrl) {
 
 
     let titleElement = document.getElementById('titleRoupa');
-    let descriptionElement = document.getElementById('dscRoupa');
+    let bustoMed = document.getElementById('bustoMed');
+    let cinturaMed = document.getElementById('cinturaMed');
+    let comprimentoMed = document.getElementById('comprimentoMed');
     let imgElement = document.getElementById('imgModal');
 
     titleElement.textContent = title;
-    descriptionElement.textContent = description;
+    bustoMed.textContent = busto;
+    cinturaMed.textContent = cintura;
+    comprimentoMed.textContent = comprimento;
     imgElement.src = imageUrl;
 
     overlay.style.display = 'flex';
